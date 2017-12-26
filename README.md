@@ -9,5 +9,7 @@ The values of graph variable may be saved and restored to and from checkpoints i
 Two ways of splitting training and testing data is used. The first way is to simply mix all data and split it into the training set and testing set. In this way, both the training and the testing data contain records from all participant and all segments. The second way is leaving one person out, which means testing set contains and only contains all records from one participant while the training set contains all other records from the remaining participants.
 
 The lstm_gd_mix file built the lstm network for blind people with a guide dog for mixed data without cross-validation and leave-one-out.
-The lstm_wc_leave-one-out file built the lstmnetwork for blind people with a long cane with leave-one-out.
+
+The lstm_wc_leave-one-out file built the lstmnetwork for blind people with a long cane with leave-one-out and cross-validation.
+
 The lstm_na_leave-one-out file built the lstmnetwork for sighted people with leave-one-out and cross-validation.
