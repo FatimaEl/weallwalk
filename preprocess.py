@@ -6,7 +6,7 @@ import types
 #input path
 fpath_input = "./ark+=b7291=d17p46_version_5/WeAllWalkToPublish8-20-17/SENSORDATA"
 #ouput path
-fpath_output = "./t2"
+fpath_output = "./weallwalk"
 
 def copy_and_rename_sensor(fpath_input, fpath_output):
     folder_list = []
